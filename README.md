@@ -2,9 +2,11 @@
 
 Um jogo simples, interativo e sonoro feito com HTML, CSS e JavaScript. Seu objetivo é clicar nos bandidos que aparecem na grade antes que o tempo acabe — mas cuidado: clicar em inocentes fará você perder vidas!
 
+Jogue aqui -> https://eddev404.github.io/jogo-desafio-bootcamp-dio/
+
 Jogo criado como parte do desafio bootcamp da DIO, mas com meus toques pessoais no projeto - artes e sons diferentes, bem como inclusão de um sistema de "perda de vidas" ao clicar em um inocente.
 
-Jogo original: https://github.com/digitalinnovationone/jsgame-detona-ralph
+Projeto original -> https://github.com/digitalinnovationone/jsgame-detona-ralph
 ---
 
 ## 🎮 Como Jogar
