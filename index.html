@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killer Bandit</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./source/styles/reset.css">
+    <link rel="stylesheet" href="./source/styles/main.css">
+</head>
+<body>
+    <audio id="background-music" loop>
+        <source src="./source/audio/chase.mp3" type="audio/mpeg">  
+    </audio>
+
+    <audio id="victory-sound" src="./source/audio/victory-sound.wav"></audio>
+
+    <audio id="game-over-sound" src="./source/audio/game-over.wav"></audio>
+
+
+    <div id="intro-box" class="intro">
+        <h2>🚨 Alerta na cidade! 🚨</h2>
+        <p>Um BANDIDO está à solta - e aterrorizando as moças inocentes desta região!<br>
+           Clique no bandido para somar pontos, mas cuidado para não machucar os inocentes!<br>
+           Você tem 3 vidas. Boa sorte!</p>
+           
+        <button id="start-button">Começar</button>
+
+    </div>
+
+    <div class="container">
+        <div class="menu">
+    <div class="menu-time">
+        <h2 style="color: #e3df00;">Time Left:</h2>
+        <h2 class="value" id="time-left">0</h2>
+    </div>
+    
+    <div class="menu-score">
+        <h2 style="color: #e3df00;">Your Score:</h2>
+        <h2 class="value" id="score">0</h2>
+    </div>
+
+    <div class="menu-lives">
+        <img src="./source/images/heart.png" alt="energy" height="100px">
+        <h2>x3</h2>
+    </div>
+    <!-- Botão para pausar/retomar música -->
+    <button id="toggle-music">🎵</button>
+</div>
+
+<div class="panel">
+    <div class="panel-row">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+    </div>
+    
+    <div class="panel-row">
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+    </div>
+    
+    <div class="panel-row">
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+        
+</div>
+
+    <!-- Script principal -->
+    <script defer src="./source/scripts/engine.js"></script>
+</body>
+</html>
