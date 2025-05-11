@@ -1,4 +1,4 @@
-# 👮‍♂️ Kille Bandit
+# 👮‍♂️ Killer Bandit
 
 Um jogo simples, interativo e sonoro feito com HTML, CSS e JavaScript. Seu objetivo é clicar nos bandidos que aparecem na grade antes que o tempo acabe — mas cuidado: clicar em inocentes fará você perder vidas!
 
